@@ -63,50 +63,8 @@
           "data": {
             "name": "",
             "range": "[7:0]",
-            "pins": [
-              {
-                "index": "7",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "6",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "5",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "4",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "3",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "2",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "1",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": false,
-            "clock": false
+            "clock": false,
+            "size": 8
           },
           "position": {
             "x": -120,
@@ -138,8 +96,7 @@
           "id": "4e8afe74-8f38-4873-97ee-f7585d99a4aa",
           "type": "basic.output",
           "data": {
-            "name": "tx",
-            "virtual": false
+            "name": "tx"
           },
           "position": {
             "x": 1568,
@@ -152,14 +109,6 @@
           "data": {
             "blockColor": "fuchsia",
             "name": "tx",
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
-            "virtual": true,
             "oldBlockColor": "fuchsia"
           },
           "position": {
@@ -173,14 +122,6 @@
           "data": {
             "blockColor": "steelblue",
             "name": "txmit-tic",
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
-            "virtual": true,
             "oldBlockColor": "fuchsia"
           },
           "position": {
@@ -194,14 +135,6 @@
           "data": {
             "blockColor": "fuchsia",
             "name": "busy",
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
-            "virtual": true,
             "oldBlockColor": "fuchsia"
           },
           "position": {
@@ -213,8 +146,7 @@
           "id": "1238dc43-4d80-42d7-871f-d87f63c22eee",
           "type": "basic.output",
           "data": {
-            "name": "busy",
-            "virtual": false
+            "name": "busy"
           },
           "position": {
             "x": 1568,
@@ -259,8 +191,7 @@
           "id": "047b1425-7c5c-4264-9810-2152c2d79fcd",
           "type": "basic.output",
           "data": {
-            "name": "done",
-            "virtual": false
+            "name": "done"
           },
           "position": {
             "x": 1568,
@@ -273,14 +204,6 @@
           "data": {
             "blockColor": "fuchsia",
             "name": "done",
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
-            "virtual": true,
             "oldBlockColor": "fuchsia"
           },
           "position": {
@@ -294,31 +217,9 @@
           "data": {
             "name": "txbits",
             "range": "[3:0]",
-            "pins": [
-              {
-                "index": "3",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "2",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "1",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true,
             "blockColor": "navy",
-            "oldBlockColor": "navy"
+            "oldBlockColor": "navy",
+            "size": 4
           },
           "position": {
             "x": 688,
@@ -330,14 +231,6 @@
           "type": "basic.input",
           "data": {
             "name": "txmit",
-            "pins": [
-              {
-                "index": "0",
-                "name": "SW2",
-                "value": "33"
-              }
-            ],
-            "virtual": false,
             "clock": false
           },
           "position": {
@@ -391,15 +284,7 @@
           "type": "basic.outputLabel",
           "data": {
             "blockColor": "fuchsia",
-            "name": "busy",
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
-            "virtual": true
+            "name": "busy"
           },
           "position": {
             "x": -40,
@@ -424,15 +309,7 @@
           "type": "basic.outputLabel",
           "data": {
             "blockColor": "fuchsia",
-            "name": "busy",
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
-            "virtual": true
+            "name": "busy"
           },
           "position": {
             "x": 200,
@@ -445,14 +322,6 @@
           "data": {
             "blockColor": "steelblue",
             "name": "txmit-tic",
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
-            "virtual": true,
             "oldBlockColor": "fuchsia"
           },
           "position": {
@@ -522,33 +391,12 @@
           "id": "98e94a70-1005-4b73-81bb-cc46fdace012",
           "type": "basic.outputLabel",
           "data": {
-            "name": "txibts",
+            "name": "txbits",
             "range": "[3:0]",
-            "pins": [
-              {
-                "index": "3",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "2",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "1",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true,
             "blockColor": "navy",
-            "oldBlockColor": "fuchsia"
+            "oldBlockColor": "navy",
+            "size": 4,
+            "virtual": true
           },
           "position": {
             "x": 1192,
@@ -561,14 +409,6 @@
           "data": {
             "blockColor": "gold",
             "name": "rst",
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
-            "virtual": true,
             "oldBlockColor": "deepskyblue"
           },
           "position": {
@@ -726,7 +566,7 @@
           },
           "position": {
             "x": 872,
-            "y": 616
+            "y": 632
           },
           "size": {
             "width": 376,
